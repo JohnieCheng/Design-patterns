@@ -1,7 +1,7 @@
 package com.johnie;
 
-import com.johnie.eager.EagerSingleton2;
 import com.johnie.eager.EagerSingleton1;
+import com.johnie.eager.EagerSingleton2;
 import com.johnie.enums.Singleton;
 
 /**

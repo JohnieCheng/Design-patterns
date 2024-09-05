@@ -1,8 +1,3 @@
-package com.johnie.simplefactory;
-
-import com.johnie.simplefactory.pizza.Pizza;
-import com.johnie.simplefactory.store.PizzaStore;
-
 /**
  * 简单工厂模式
  * 属于创建型模式，是工厂模式的一种。简单工厂模式是由一个工厂对象决定创建出哪一种产品类的实例。
@@ -11,11 +6,9 @@ import com.johnie.simplefactory.store.PizzaStore;
  * 优点：比较好理解，简单易操作。
  * 缺点：违反了设计模式的ocp原则，即对扩展开放，对修改关闭。
  * 即当我们给类增加新功能的时候，尽量不修改代码，或者尽可能少修改代码
+ *
+ * @author JohnieCheng
+ * @version 1.0
+ * @date 2024/9/4 10:40
  */
-public class OrderPizza {
-    public static void main(String[] args) {
-        PizzaStore pizzaStore = new PizzaStore();
-        Pizza cheese = pizzaStore.order("Cheese");
-        System.out.println(cheese.getName() + "：做好了");
-    }
-}
+package com.johnie.a_simplefactory;

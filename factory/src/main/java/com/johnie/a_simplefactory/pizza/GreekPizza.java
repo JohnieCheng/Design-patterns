@@ -1,4 +1,4 @@
-package com.johnie.simplefactory.pizza;
+package com.johnie.a_simplefactory.pizza;
 
 public class GreekPizza extends Pizza {
     @Override

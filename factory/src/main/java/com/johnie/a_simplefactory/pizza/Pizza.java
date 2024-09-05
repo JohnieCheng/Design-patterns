@@ -1,4 +1,4 @@
-package com.johnie.simplefactory.pizza;
+package com.johnie.a_simplefactory.pizza;
 
 public abstract class Pizza {
     protected String name;
@@ -17,11 +17,11 @@ public abstract class Pizza {
         System.out.println(name + " boxing;");
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

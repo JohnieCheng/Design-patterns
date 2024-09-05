@@ -1,9 +1,7 @@
-package com.johnie.simplefactory.store;
+package com.johnie.a_simplefactory.store;
 
-import com.johnie.simplefactory.factory.SimplePizzaFactory;
-import com.johnie.simplefactory.pizza.CheesePizza;
-import com.johnie.simplefactory.pizza.GreekPizza;
-import com.johnie.simplefactory.pizza.Pizza;
+import com.johnie.a_simplefactory.factory.SimplePizzaFactory;
+import com.johnie.a_simplefactory.pizza.Pizza;
 
 public class PizzaStore {
     public Pizza order(String pizzaName) {
