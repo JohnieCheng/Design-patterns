@@ -21,6 +21,9 @@
 
     <modules>
         <module>creation-patterns</module>
+        <module>structural-patterns</module>
+        <module>behavioral-patterns</module>
+        <module>concurrency-patterns</module>
     </modules>
 
 </project>
