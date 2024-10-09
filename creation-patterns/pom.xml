@@ -11,9 +11,14 @@
     <description>creation-patterns</description>
 
     <modules>
+<!--        工厂模式-->
         <module>factory</module>
+<!--        单例模式-->
         <module>singleton</module>
+<!--        建造者模式-->
         <module>builder</module>
+<!--        原型模式-->
+        <module>prototype</module>
     </modules>
 
 </project>
