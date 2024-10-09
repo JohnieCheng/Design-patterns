@@ -11,7 +11,7 @@ public class Singleton {
     private Singleton() {
     }
 
-    public static enum SingletonEnum {
+    public enum SingletonEnum {
         INSTANCE;
         private Singleton instance = null;
 
